@@ -6,4 +6,3 @@ head(df)
 lm.result=lm(conspiracist_avg~age,data=df)
 summary(lm.result)
 
-plot(df$age,df$conspiracist_avg)
